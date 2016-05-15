@@ -29,7 +29,7 @@ class Jekyll::NewrelicTest < Minitest::Test
     error_string = 'Liquid error: Invalid jekyll-newrelic configuration. See '\
     'https://github.com/brint/jekyll-newrelic#usage for more details on usage'\
     ' and configuration.'
-    assert_equal  error_string, bad_tmpl.render
+    assert_equal error_string, bad_tmpl.render
   end
 
   def test_generating_newrelic_code
