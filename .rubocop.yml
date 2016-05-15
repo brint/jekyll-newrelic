@@ -1,0 +1,11 @@
+Style/ClassAndModuleChildren:
+  Exclude:
+    - test/jekyll/newrelic_test.rb
+
+Style/FileName:
+  Exclude:
+    - lib/jekyll-newrelic.rb
+
+Style/RedundantReturn:
+  Exclude:
+    - test/jekyll/newrelic_test.rb
