@@ -1,15 +1,17 @@
 # Jekyll::Newrelic
 [![Gem Version](https://img.shields.io/gem/v/jekyll-newrelic.svg)][ruby-gems]
 [![Build Status](https://travis-ci.org/brint/jekyll-newrelic.svg?branch=master)][travis]
+[![Test Coverage](https://codeclimate.com/github/brint/jekyll-newrelic/badges/coverage.svg)][coverage]
 [![Code Climate](https://codeclimate.com/github/brint/jekyll-newrelic/badges/gpa.svg)][codeclimate]
 [![Dependency Status](https://gemnasium.com/badges/github.com/brint/jekyll-newrelic.svg)][gemnasium]
 [![Security](https://hakiri.io/github/brint/jekyll-newrelic/master.svg)][hakiri]
 
 [ruby-gems]: https://rubygems.org/gems/jekyll-newrelic
-[gemnasium]: https://gemnasium.com/github.com/brint/jekyll-newrelic
-[codeclimate]: https://codeclimate.com/github/brint/jekyll-newrelic
-[hakiri]: https://hakiri.io/github/brint/jekyll-newrelic/
 [travis]: https://travis-ci.org/brint/jekyll-newrelic
+[coverage]: https://codeclimate.com/github/brint/jekyll-newrelic/coverage
+[codeclimate]: https://codeclimate.com/github/brint/jekyll-newrelic
+[gemnasium]: https://gemnasium.com/github.com/brint/jekyll-newrelic
+[hakiri]: https://hakiri.io/github/brint/jekyll-newrelic/
 
 Add [New Relic Browser](https://newrelic.com/browser-monitoring) to your Jekyll site.
 
