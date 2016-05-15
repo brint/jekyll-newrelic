@@ -1,4 +1,5 @@
 # Jekyll::NewRelic
+[![Build Status](https://travis-ci.org/brint/jekyll-newrelic.svg?branch=master)](https://travis-ci.org/brint/jekyll-newrelic)
 
 Add [New Relic Browser](https://newrelic.com/browser-monitoring) to your Jekyll site.
 
