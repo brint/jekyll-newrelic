@@ -10,8 +10,26 @@ class Jekyll::NewrelicTest < Minitest::Test
     return site
   end
 
+  def bad_site_config
+    site = Jekyll::Site.new(Jekyll.configuration)
+    site.config['newrelic'] = {
+      'random' => 'value'
+    }
+    return site
+  end
+
   def test_that_it_has_a_version_number
     refute_nil ::Jekyll::Newrelic::VERSION
+  end
+
+  def test_bad_newrelic_configuration
+    bad_site = bad_site_config
+    bad_tmpl = Liquid::Template.parse('{% newrelic %}')
+    bad_tmpl.registers[:site] = bad_site
+    error_string = 'Liquid error: Invalid jekyll-newrelic configuration. See '\
+    'https://github.com/brint/jekyll-newrelic#usage for more details on usage'\
+    ' and configuration.'
+    assert_equal  error_string, bad_tmpl.render
   end
 
   def test_generating_newrelic_code
