@@ -1,4 +1,4 @@
-# Jekyll::NewRelic
+# Jekyll::Newrelic
 [![Build Status](https://travis-ci.org/brint/jekyll-newrelic.svg?branch=master)](https://travis-ci.org/brint/jekyll-newrelic)
 
 Add [New Relic Browser](https://newrelic.com/browser-monitoring) to your Jekyll site.
@@ -49,6 +49,15 @@ If you have multiple environments, you may only want to use New Relic in a speci
 ```
 
 The above example is useful for making sure you don't load the New Relic code when performing local development or in other non-production environments. This can throw your numbers off.
+
+## Troubleshooting
+If you do not properly configure `jekyll-newrelic` and try to build a Jekyll site, you will get the following error message:
+
+```
+Invalid jekyll-newrelic configuration. See https://github.com/brint/jekyll-newrelic#usage for more details on usage and configuration.
+```
+
+Check spelling and capitalization of letters to make sure everything is properly configured.
 
 ## Development
 
