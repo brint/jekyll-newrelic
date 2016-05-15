@@ -1,6 +1,5 @@
 require 'jekyll-newrelic/version'
 require 'jekyll'
-require 'pp'
 
 module Jekyll
   class Newrelic < Liquid::Tag # :nodoc:
